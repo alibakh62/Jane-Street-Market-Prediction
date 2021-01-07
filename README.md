@@ -26,8 +26,7 @@ This competition is evaluated on a utility score. Each row in the test set repre
 
 For each `date` i, we define:
 
-<img src="https://bit.ly/3nlAiEY" align="center" border="0" alt="p_i = \sum_j \big({weight}_{ij}\times{resp}_{ij}\times{action}_{ij}\big)" width="283" height="42" />
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\fn_jvn&space;p_i&space;=&space;\sum_j&space;\big({weight}_{ij}\times{resp}_{ij}\times{action}_{ij}\big)" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\fn_jvn&space;p_i&space;=&space;\sum_j&space;\big({weight}_{ij}\times{resp}_{ij}\times{action}_{ij}\big)" title="p_i = \sum_j \big({weight}_{ij}\times{resp}_{ij}\times{action}_{ij}\big)" /></a>
 
 <img src="https://bit.ly/2XmpQlQ" align="center" border="0" alt="u = min(max(t,0),6)\sum{p_i}" width="203" height="29" />
 
