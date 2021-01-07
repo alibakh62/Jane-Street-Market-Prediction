@@ -30,15 +30,9 @@ For each `date` i, we define:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\fn_jvn&space;t&space;=&space;\frac{\sum{p_i}}{\sqrt{\sum{{p_i}^2}}}\times\sqrt{\frac{250}{|i|}}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\fn_jvn&space;t&space;=&space;\frac{\sum{p_i}}{\sqrt{\sum{{p_i}^2}}}\times\sqrt{\frac{250}{|i|}}" title="t = \frac{\sum{p_i}}{\sqrt{\sum{{p_i}^2}}}\times\sqrt{\frac{250}{|i|}}" /></a>
 
-$p_i = \sum_j \big({weight}_{ij}\times{resp}_{ij}\times{action}_{ij}\big)$
-
-$t = \frac{\sum{p_i}}{\sqrt{\sum{{p_i}^2}}}\times\sqrt{\frac{250}{|i|}}$
-
-where $|i|$ is the number of unique dates in the test set. The **utility function** is then defined as:
+where `|i|` is the number of unique dates in the test set. The **utility function** is then defined as:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\fn_jvn&space;u&space;=&space;min(max(t,0),6)\sum{p_i}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\fn_jvn&space;u&space;=&space;min(max(t,0),6)\sum{p_i}" title="u = min(max(t,0),6)\sum{p_i}" /></a>
-
-$u = min(max(t,0),6)\sum{p_i}$
 
 ## Submission File
 You must submit to this competition using the provided python time-series API, which ensures that models do not peek forward in time. To use the API, follow the following template in Kaggle Notebooks:
