@@ -26,6 +26,12 @@ This competition is evaluated on a utility score. Each row in the test set repre
 
 For each `date` i, we define:
 
+<img src="https://bit.ly/3nlAiEY" align="center" border="0" alt="p_i = \sum_j \big({weight}_{ij}\times{resp}_{ij}\times{action}_{ij}\big)" width="283" height="42" />
+
+<img src="https://bit.ly/35lJMK3" align="center" border="0" alt="t = \frac{\sum{p_i}}{\sqrt{\sum{{p_i}^2}}}\times\sqrt{\frac{250}{|i|}}" width="158" height="53" />
+
+<img src="https://bit.ly/2XmpQlQ" align="center" border="0" alt="u = min(max(t,0),6)\sum{p_i}" width="203" height="29" />
+
 $p_i = \sum_j \big({weight}_{ij}\times{resp}_{ij}\times{action}_{ij}\big)$
 
 $t = \frac{\sum{p_i}}{\sqrt{\sum{{p_i}^2}}}\times\sqrt{\frac{250}{|i|}}$
